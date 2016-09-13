@@ -18,10 +18,8 @@ if(isset($_POST['email']) && isset($_POST['password'])){
 
 		// Force user connection to access dashboard
 		if (userConnection($db, $_POST['email'], $_POST['password']) == True ){
-		
-		
-		header('Location: dashboard.php');
-}
+			header('Location: dashboard.php');
+		}
 
 	}else{
 		$error = 'Champs requis !';
