@@ -18,3 +18,6 @@ if(isset($_GET) && !empty($_GET)){
 	}
 
 }
+
+
+?>

@@ -18,6 +18,7 @@ if(isset($_POST['email']) && isset($_POST['password'])){
 
 		// Force user connection to access dashboard
 		if (userConnection($db, $_POST['email'], $_POST['password']) == True ){
+
 			header('Location: dashboard.php');
 		}
 
@@ -32,3 +33,5 @@ if(isset($_POST['email']) && isset($_POST['password'])){
 include 'view/_header.php';
 include 'view/login.php';
 include 'view/_footer.php';
+
+?>
