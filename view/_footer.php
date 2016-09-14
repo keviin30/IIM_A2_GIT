@@ -7,7 +7,7 @@
 
 	<?php if(basename($_SERVER['PHP_SELF']) == 'dashboard.php'){ ?>
 	<audio preload></audio>
-
+	
 	<script src="view/js/libs/audiojs/audio.min.js"></script>
 	<script>
 		$(function() {
