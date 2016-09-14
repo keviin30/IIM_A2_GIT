@@ -29,3 +29,5 @@ if(isset($_POST) && !empty($_POST)){
 include 'view/_header.php';
 include 'view/edit.php';
 include 'view/_footer.php';
+
+?>

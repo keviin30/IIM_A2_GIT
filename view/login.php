@@ -26,5 +26,5 @@
 					<p class="account">Vous n'avez pas de compte ? <a href="register.php">Inscrivez vous !</a></p>
 				</form>
 			</div>
-		</div>
+		</div> 
 	</section>

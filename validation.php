@@ -1,14 +1,14 @@
 <?php
 require('config/config.php');
 require('model/functions.fn.php');
-session_start();
 
-if(	isset($_POST['username']) && isset($_POST['email']) && isset($_POST['password']) && 
-	!empty($_POST['username']) && !empty($_POST['email']) && !empty($_POST['password'])) {
 
-	// TODO
+include 'view/_header.php'; ?>
 
-}else{ 
-	$_SESSION['message'] = 'Erreur : Formulaire incomplet';
-	header('Location: register.php');
+<html> <h1> Félicitations, vous êtes inscrit !</h1>
+		<a href="dashboard.php"> Cliquez ici pour aller à l'accueil</a>
+</html> <?php
+include 'view/_footer.php'; ?>
 }
+
+?>

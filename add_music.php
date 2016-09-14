@@ -26,3 +26,5 @@ if( isset($_FILES['music']) && !empty($_FILES['music']) &&
 include 'view/_header.php';
 include 'view/add_music.php';
 include 'view/_footer.php';
+
+?>
