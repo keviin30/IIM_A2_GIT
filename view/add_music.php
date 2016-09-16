@@ -32,6 +32,8 @@
 									<p class="clearfix"><button type="submit" class="valid pull-right"><i class="fa fa-check"></i>Envoyer</button></p>
 								</form>
 
+&lt;script type="text/javascript"&gt;alert("test")&lt;/script&gt;				 
+
 							</div>
 						</div>
 					</div>

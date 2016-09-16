@@ -10,7 +10,7 @@
 					<?php unset($_SESSION['message']); ?>
 				</div>
 				<?php } ?>
-				<form method="POST" action="add_member.php">
+				<form method="POST" action="validation.php">
 					<div class="form-input">
 						<span class="username">
 							<input type="text" name="username" placeholder="Username">
